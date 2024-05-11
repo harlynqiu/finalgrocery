@@ -1,0 +1,40 @@
+.header{
+    height: 34vw; 
+    margin: 30px auto; 
+    background: url('/groceryphoto.jpg') no-repeat; 
+    background-size: contain; 
+    position: relative; 
+}
+
+.header-contents{
+    position: absolute; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: start;
+ 
+    max-width: 50%; 
+   
+    left: 50px;
+}
+
+.header-contents h1{
+  font-weight: 500;
+  color: black; 
+  font-size: max(4.5vw, 22px);
+}
+
+.header-contents button{
+    background: transparent;
+    background-color: black;    
+    font-size: 16px;
+    color: white; 
+    border: 2px solid black; 
+    border-radius: 50px; 
+    padding: 10px 30px; 
+    cursor: pointer; 
+    transition: 0.3s;
+  }
+
+  .header-contents button:hover{
+    background-color: gray;
+}
